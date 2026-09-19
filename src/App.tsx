@@ -805,10 +805,10 @@ export default function WeddingInvitation() {
                     <div className="absolute inset-0 border border-theme-200 rounded-t-full rounded-b-[1.5rem] pointer-events-none z-10" />
 
                     {/* The Hotel Image */}
-                    <div className="absolute inset-0 w-full h-full scale-[1.2] group-hover:scale-[1.15] transition-transform duration-[2s]">
+                    <div className="absolute inset-0 w-full h-full overflow-hidden rounded-t-full rounded-b-[1.5rem]">
                       <img
-                        src="https://media-cdn.tripadvisor.com/media/photo-s/08/1c/15/ed/hotel-sannasa.jpg"
-                        className="w-full h-full object-cover hover:scale-105 transition-all duration-1000"
+                        src="/WhatsApp Image 2026-09-19 at 13.52.01.jpeg"
+                        className="w-full h-full object-cover scale-100 group-hover:scale-110 transition-transform duration-[2s]"
                         alt="Sannasa Grand Hotel"
                       />
                     </div>
